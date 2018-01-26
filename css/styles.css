@@ -48,23 +48,24 @@ body {
     margin-right: 0;
     margin-left: 0;
     text-align: center;
-    background-color: #f4f7f6 !important;
+    background-color: #f3f3f3 !important;
 }
 .header {
     background-color: #000000;
     color: white;
+    font-size: 8px;
     width: 100%;
 }
 .footer {
     background-color: #4d4d4d;
     color: white;
+    font-size: 8px;
     width: 100%;
 }
 .toolbar {
     background-color: white;
     box-shadow: 0 3px 5px 1px rgba(0,0,0,.3);
     display: inline-block;
-    height: 90px;
     width: 320px;
     margin-bottom: 10px;
 }
@@ -73,13 +74,19 @@ body {
     width: 320px;
 }
 .career {
+    color: #4d4d4d;
     font-size: 24px;
+    font-weight: bold;
 }
-.nav
+.item
 {
 	width: 75px;
 	display: inline-block;
-    margin-top: 15px;
+    padding-top: 10px;
+}
+.item:hover
+{
+    background-color: #f3f3f3;
 }
 .button{
     height: 40px;
@@ -141,11 +148,11 @@ body {
     text-shadow: 1px 1px #000000;
 }
 #selector{
-    border: 1px solid white;
+    border: 2px solid white;
     position: absolute;
     top: 5px;
     left: 210px;
-    height: 17px;
+    height: 20px;
     width: 105px;
     z-index: 1;
 }
@@ -159,7 +166,6 @@ body {
     text-align: left;
     position: absolute;
     color: white;
-    opacity: 0.8;
     padding: 0 5px 0 5px;
 }
 .skill1 {
@@ -205,18 +211,18 @@ body {
     position: absolute;
     color: #24313f;
     background-color: white;
-    padding: 12px 5px 5px 5px;
+    padding: 5px;
     border-radius: 5px;
     border:1px solid #24313f;
     font-size: 12px;
-    height: 175px;
+    height: 150px;
     width: 300px;
-    top: 285px;
+    top: 325px;
     left: 10px;
 }
 .portfolio {
     position: absolute;
-    top: 475px;
+    top: 485px;
     left: 0px;
     color: white;
     background-color: #24313f;
@@ -230,15 +236,11 @@ body {
     height: 533px;
     width: 320px;
 }
-.footer {
-    padding: 0 5px 0 5px;
-    font-size: 0.8em;
-}
 .about {
     font-size: 0.8em;
     width: 320px;
     text-align: left;
-    padding: 10px 0 0 5px;
+    padding: 5px 0 0 5px;
 }
 .logo{
     float:left;
@@ -276,12 +278,16 @@ body {
     width: 350px;
 }
 #project_list > li {
-	list-style-type: none;
+    list-style-type: none;
+    height: 58px;
     margin-top: 5px;
-    padding-top: 5px;
+    padding: 5px;
     border-top: 1px solid silver;
     text-align: left;
     cursor: pointer;
+}
+#project_list > li:hover {
+    background-color: #f3f3f3;
 }
 .modal {
     display: none; /* Hidden by default */
