@@ -9,11 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Sarpanch:900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" type="image/png" href="favicon.ico" />
@@ -21,89 +24,84 @@
 
 <body>
     <div class="header">
-        <div class="nav">
-            <a target="_blank" class="link" title="https://www.linkedin.com/in/mruanova" href="https://www.linkedin.com/in/mruanova">
-                <img src="img/linkedin.png" alt="Linkedin" class="button"> Linkedin
-            </a>
-        </div>
-        <div class="nav">
-            <a target="_blank" class="link" title="https://github.com/mruanova" href="https://github.com/mruanova">
-                <img src="img/github.png" alt="Github" class="button"> Github
-            </a>
-        </div>
-        <div class="nav">
-            <a target="_blank" class="link" title="medium.com/@moreissues" href="https://medium.com/@moreissues">
-                <img src="img/email.png" alt="medium.com/@moreissues" class="button"> Blog
-            </a>
-        </div>
-        <div class="nav">
-            <a target="_self" class="link" title="about" href="#" id="about">
-                <img src="img/about.jpg" alt="About" class="button"> About
-            </a>
+        2018
+    </div>
+    <div>
+        <div class="toolbar">
+            <div class="nav">
+                <a target="_blank" class="link" title="linkedin" href="https://www.linkedin.com/in/mruanova">
+                    <img src="img/linkedin.png" alt="Linkedin" class="button"> Linkedin
+                </a>
+            </div>
+            <div class="nav">
+                <a target="_blank" class="link" title="github" href="https://github.com/mruanova">
+                    <img src="img/github.png" alt="Github" class="button"> Github
+                </a>
+            </div>
+            <div class="nav">
+                <a target="_blank" class="link" title="blog" href="https://medium.com/@moreissues">
+                    <img src="img/email.png" alt="blog" class="button"> Blog
+                </a>
+            </div>
+            <div class="nav">
+                <a target="_self" class="link" title="demo" href="#" id="about">
+                    <img src="img/about.jpg" alt="demo" class="button"> Demo
+                </a>
+            </div>
         </div>
     </div>
+    <div class="heading">
+        <span class="career">CAREER PORTFOLIO</span>
+    </div>
     <div class="main">
-        <div class="box col-sm-12 col-md-6 col-lg-4" style="padding: 0;margin: 0;">
-            <div class="flex">
-                <div class="flex1">
-                </div>
-                <div class="flex1" style="position: relative;">
-                    <img src="img/mau.jpg" alt="mau">
-                    <div class="mau">mau</div>
-                    <div class="mauricioruanovahurtado">MAURICIO RUANOVA-HURTADO</div>
-                    <div class="skill skill1">ASP.Net Core</div>
-                    <div class="skill skill2">C# / VB</div>
-                    <div class="skill skill3">React</div>
-                    <div class="skill skill4">Node.js</div>
-                    <div class="skill skill5">Python</div>
-                    <div class="skill skill6">jQuery</div>
-                    <div class="skill skill7">Angular</div>
-                    <div id="selector"></div>
-                    <div id="job">
-                        loading ...
-                    </div>
-                    <div class="portfolio">Career Portfolio</div>
-                </div>
-                <div class="flex1">
-                </div>
+        <div class="box">
+            <img src="img/mau.jpg" alt="mau">
+            <div class="mau">mau</div>
+            <div class="mauricioruanovahurtado">MAURICIO RUANOVA-HURTADO</div>
+            <div class="skill skill1">ASP.Net Core</div>
+            <div class="skill skill2">C# / VB</div>
+            <div class="skill skill3">React</div>
+            <div class="skill skill4">Node.js</div>
+            <div class="skill skill5">Python</div>
+            <div class="skill skill6">jQuery</div>
+            <div class="skill skill7">Angular</div>
+            <div id="selector"></div>
+            <div id="job">
+                loading ...
             </div>
+            <div class="portfolio">Software Engineer</div>
         </div>
-        <div class="box col-sm-12 col-md-6 col-lg-4" style="padding: 0;margin: 0;">
-            <div class="flex">
-                <div class="flex1">
-                </div>
-                <div class="flex1 white">
-                    <div class="about">
-                        Mauricio Ruanova-Hurtado © Chicago, IL, USA
-                    </div>
-                    <div>
-                        <ul id="project_list">
-                            <li>Loading...</li>
-                        </ul>
-                    </div>
-                    <ul id="project_list">
-                    </ul>
-                </div>
-                <div class="flex1">
-                </div>
+        <div class="box">
+            <div class="about">
+                Click on a project from the list to update the map:
             </div>
+            <ul id="project_list">
+            </ul>
         </div>
-        <div class="box col-sm-12 col-md-12 col-lg-4" style="padding: 0;margin: 0;">
+        <div class="box">
             <div id="map"></div>
         </div>
+    </div>
+    <div class="footer">
+        Chicago
+    </div>
+    <div>
+        <a target="_blank" class="link" title="linkedin" href="https://www.linkedin.com/in/mruanova">Linkedin</a> |
+        <a target="_blank" class="link" title="github" href="https://github.com/mruanova">Github</a> |
+        <a target="_blank" class="link" title="blog" href="https://medium.com/@moreissues">Blog</a>
     </div>
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <p>Mauricio Ruanova-Hurtado
-            </p>
             <br/>
             <p>
-                <a target="_blank" href="https://246gg84zg8.execute-api.us-west-2.amazonaws.com/prod/projects" title="Web API">API</a> |
-                <a target="_blank" title="AWS Lambda function (node.js) and DynamoDB" href="https://youtu.be/NOQZ1OdJ-I4">Back-End</a> mruanova.com
+                <a target="_blank" href="https://246gg84zg8.execute-api.us-west-2.amazonaws.com/prod/projects" title="API">API</a> mruanova.com
             </p>
             <p>
-                <a target="_blank" title="Zillow inspired demo in python django" href="https://youtu.be/qqfZpzWPw9w">Zillow</a> inspired app in python
+                <a target="_blank" title="back-end" href="https://youtu.be/NOQZ1OdJ-I4">Back-End</a> mruanova.com
+            </p>
+            <p>
+                <a target="_blank" title="Zillow" href="https://youtu.be/qqfZpzWPw9w">Zillow</a> inspired app
             </p>
             <p>
                 <a target="_blank" title="Corcoran Angular" href="https://youtu.be/gPlAq-FR5VE">Corcoran</a> |
@@ -112,17 +110,13 @@
             <p>
                 <a target="_blank" title="Invision Ascendon" href="https://invision-beta.prd1.contentdirect.tv">Invision Ascendon</a> CSG
             </p>
-            <p>BS in computer systems engineering
-                <a href="http://udem.edu.mx/itc/" target="_blank" title="Universidad de Monterrey">udem.edu.mx</a>
+            <p>
+                <a target="_blank" title="pacman" href="http://mruanova.com/pacman/">PACMAN</a> game
             </p>
             <p>
-                Games:
-                <a target="_blank" title="pacman" href="http://mruanova.com/pacman/">PACMAN</a>
-            </p>
-            <p>
-                Using
                 <a target="_blank" title="C3JS" href="http://mruanova.com/c3/">C3.js (Timeseries Chart)</a>
             </p>
+            <p>Mauricio Ruanova-Hurtado</p>
         </div>
     </div>
     <script src="js/modal.js"></script>
@@ -157,10 +151,10 @@
         ReactDOM.render(<GetProjects />, document.getElementById("project_list"));
 
         class GetJob extends React.Component {
-            render() { return <div className='job'><p>This website uses JavaScript in the front-end to request all the projects to a Web API with an Http Get method 
-                and render the response in a list with markers in Google Maps.</p>
-                <p>In the back-end a AWS Getway API executes a serverless Lambda function in Node.js that retrieves data from DynamoDB.</p>
-                <p>Code available in my GitHub account.</p></div>}
+            render() { return <div className='job'><p>This website uses JavaScript in the front-end to request all the projects from a RESTful web service API with an Http Get method 
+                and render the JSON response in a list and a map.</p>
+                <p>In the back-end an AWS API Getway executes a serverless Lambda function in Node.js that retrieves data from DynamoDB.</p>
+                </div>}
         }
         ReactDOM.render(<GetJob />, document.getElementById("job"));
     </script>

@@ -32,17 +32,9 @@
     .col-lg-4 {
         width: 33.333333%;
     }
-}.flex{
-    display: flex;
-    width: 100%;
-}
-.flex1{
-    flex:1;
-}
-.white{
-    background-color: white;
 }
 .box {
+    background-color: white;
     position: relative;
     vertical-align: top;
     display: inline-block;
@@ -59,9 +51,29 @@ body {
     background-color: #f4f7f6 !important;
 }
 .header {
-    width: 100%;
-    height: 90px;
+    background-color: #000000;
     color: white;
+    width: 100%;
+}
+.footer {
+    background-color: #4d4d4d;
+    color: white;
+    width: 100%;
+}
+.toolbar {
+    background-color: white;
+    box-shadow: 0 3px 5px 1px rgba(0,0,0,.3);
+    display: inline-block;
+    height: 90px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+.heading {
+    display: inline-block;
+    width: 320px;
+}
+.career {
+    font-size: 24px;
 }
 .nav
 {
@@ -100,7 +112,7 @@ body {
 .link2 {
     color: darkgoldenrod;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
 }
 .link3 {
@@ -215,8 +227,8 @@ body {
     padding: 5px 5px 5px 5px;
 }
 #map {
-    height: 100%;
-    width: 100%;
+    height: 533px;
+    width: 320px;
 }
 .footer {
     padding: 0 5px 0 5px;
@@ -240,24 +252,24 @@ body {
 .company {
     color: darkgoldenrod;
     font-weight:bold;
-    font-size:0.75em;
+    font-size:11px;
 }
 .position {
     color: #24313f;
-    font-size:0.75em;
+    font-size:11px;
 }
 .address {
     color: dimgray;
-    font-size:0.75em;
+    font-size:11px;
 }
 .address-link {
     color: blue;
-    font-size:0.75em;
+    font-size:11px;
     text-decoration: underline;
 }
 .website {
     color: darkcyan;
-    font-size:0.75em;
+    font-size:11px;
 }
 #project_list {
     margin-left: -35px;
