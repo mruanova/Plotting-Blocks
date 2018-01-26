@@ -128,6 +128,15 @@ body {
     font-size: 12px;
     text-shadow: 1px 1px #000000;
 }
+#selector{
+    border: 1px solid white;
+    position: absolute;
+    top: 5px;
+    left: 210px;
+    height: 17px;
+    width: 105px;
+    z-index: 1;
+}
 .skill {
     font-weight: bold;
     font-size: 12px;
