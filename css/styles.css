@@ -50,18 +50,6 @@ body {
     text-align: center;
     background-color: #f3f3f3 !important;
 }
-.header {
-    background-color: #000000;
-    color: white;
-    font-size: 8px;
-    width: 100%;
-}
-.footer {
-    background-color: #4d4d4d;
-    color: white;
-    font-size: 8px;
-    width: 100%;
-}
 .toolbar {
     background-color: white;
     box-shadow: 0 3px 5px 1px rgba(0,0,0,.3);
@@ -78,13 +66,13 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
-.item
+.navbutton
 {
 	width: 75px;
 	display: inline-block;
     padding-top: 10px;
 }
-.item:hover
+.navbutton:hover
 {
     background-color: #f3f3f3;
 }
@@ -104,6 +92,7 @@ body {
 }
 .main {
     width: 100%;
+    margin: 5px 0 5px 0;
 }
 .link {
     color: #24313f;
@@ -236,6 +225,13 @@ body {
     height: 533px;
     width: 320px;
 }
+.projects {
+    height: 533px;
+    width: 320px;
+}
+.overflow {
+    overflow-y: scroll;
+}
 .about {
     font-size: 0.8em;
     width: 320px;
@@ -273,11 +269,11 @@ body {
     color: darkcyan;
     font-size:11px;
 }
-#project_list {
+ul {
     margin-left: -35px;
     width: 350px;
 }
-#project_list > li {
+ul > li {
     list-style-type: none;
     height: 58px;
     margin-top: 5px;
@@ -286,7 +282,7 @@ body {
     text-align: left;
     cursor: pointer;
 }
-#project_list > li:hover {
+ul > li:hover {
     background-color: #f3f3f3;
 }
 .modal {
