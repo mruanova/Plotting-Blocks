@@ -81,16 +81,9 @@ body {
     width: 40px;
     border-radius: 100%;
 }
-.h1 {
+.banner {
     color: white;
     text-transform: uppercase;
-    font-size: 36px;
-}
-.h2 {
-    color: darkgoldenrod;
-}
-.h3 {
-    color: darkcyan;
 }
 .main {
     width: 100%;
@@ -318,4 +311,8 @@ ul > li:hover {
     color: #24313f;
     text-decoration: none;
     cursor: pointer;
+}
+.item > img {
+    height:100px !important;
+    width:100%;
 }

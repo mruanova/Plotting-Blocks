@@ -8,7 +8,7 @@ function initialize() {
     geocoder = new google.maps.Geocoder();
     let latlng = new google.maps.LatLng(41.8838158, -87.6415424);
     let mapOptions = {
-        zoom: 13,
+        zoom: 14,
         center: latlng
     };
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
