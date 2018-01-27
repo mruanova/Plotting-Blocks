@@ -1,4 +1,4 @@
-let arr = ["5px", "25px", "45px", "65px", "85px", "105px", "125px"],
+let arr = ["3px", "23px", "43px", "63px", "83px", "103px", "123px"],
     el = document.getElementById('selector'),
     i = 0;
 function updateText() {
